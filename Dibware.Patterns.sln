@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{6B65D4
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DecoratorPattern", "Common\DecoratorPattern\DecoratorPattern.xproj", "{A662A653-1A0D-4293-A2A7-EE34E06DC1B0}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VisitorPattern", "Common\VisitorPattern\VisitorPattern.xproj", "{3078D46E-2201-4EBB-ADD2-DE9A66461AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{A662A653-1A0D-4293-A2A7-EE34E06DC1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A662A653-1A0D-4293-A2A7-EE34E06DC1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A662A653-1A0D-4293-A2A7-EE34E06DC1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3078D46E-2201-4EBB-ADD2-DE9A66461AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3078D46E-2201-4EBB-ADD2-DE9A66461AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3078D46E-2201-4EBB-ADD2-DE9A66461AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3078D46E-2201-4EBB-ADD2-DE9A66461AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A662A653-1A0D-4293-A2A7-EE34E06DC1B0} = {6B65D45E-C779-4D6D-8AF1-0E35E886ACC1}
+		{3078D46E-2201-4EBB-ADD2-DE9A66461AC6} = {6B65D45E-C779-4D6D-8AF1-0E35E886ACC1}
 	EndGlobalSection
 EndGlobal
