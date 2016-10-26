@@ -2,13 +2,13 @@
 
 namespace CompositePattern
 {
-    internal class Team : EntityBase
+    internal class Team : BonusableEntityBase
     {
-        public readonly List<IEntity> Members;
+        public readonly List<IBonusableEntity> Members;
 
         public Team()
         {
-            Members = new List<IEntity>();
+            Members = new List<IBonusableEntity>();
         }
 
         public override double Bonus {

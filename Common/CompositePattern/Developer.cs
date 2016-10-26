@@ -2,10 +2,8 @@
 
 namespace CompositePattern
 {
-    internal class Developer : EntityBase
+    internal class Developer : BonusableEntityBase
     {
-        public override double Bonus { get; set; }
-
         public override void PrintStatistics()
         {
             Console.WriteLine("Developer {0} has a bonus of {1}.", Name, Bonus);

@@ -1,8 +1,8 @@
 ﻿namespace CompositePattern
 {
-    internal abstract class EntityBase : IEntity
+    internal abstract class BonusableEntityBase : IBonusableEntity
     {
-        public abstract double Bonus { get; set; }
+        public virtual double Bonus { get; set; }
 
         public abstract void PrintStatistics();
 
